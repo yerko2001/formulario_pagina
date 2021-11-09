@@ -94,10 +94,10 @@ $row=mysqli_fetch_array($query);
                       <input type="text" class="form-control" id="inputAddress2" name="direccion">
                     </div>
 
-                    <div class="col-md-6">
+                    <!--<div class="col-md-6">
                       <label for="inputAddress3" class="form-label">Sexo</label>
                       <input type="text" class="form-control" id="inputAddress3" name="sexo">
-                    </div>
+                    </div>-->
 
                     <div class="col-md-6">
                       <label for="inputAddress4" class="form-label">Edad</label>
@@ -108,6 +108,30 @@ $row=mysqli_fetch_array($query);
                       <label for="inputAddress5" class="form-label">Fecha</label>
                       <input type="date" class="form-control" id="inputAddress5" name="fecha">
                     </div>
+
+                    <fieldset class="col-md-6">
+                      <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios1" value="option1">
+                          <label class="form-check-label" for="gridRadios1">
+                            Masculino
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            Femenino
+                          </label>
+                        </div>
+                        <div class="form-check disabled">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios3" value="option3">
+                          <label class="form-check-label" for="gridRadios3">
+                            Otro
+                          </label>
+                        </div>
+                      </div>
+                    </fieldset>
 
                     <div class="col-12">
                       <input type="submit" class="btn btn-primary"></input>
