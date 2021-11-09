@@ -35,7 +35,9 @@ $row=mysqli_fetch_array($query);
 
     <div class="container" style=" justify-content: center; align-items: center;">
 		  <div class="row">
-
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="padding: 20px; align-content: center; margin: 20px;" met>
+          <h1>Edicion: </h1>
+        </div>
   			<div class="formulario">
             <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="padding: 20px; align-content: center; margin: 20px;" met>
             	<form action="update.php" method="POST">
@@ -47,7 +49,7 @@ $row=mysqli_fetch_array($query);
             			<input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos" value="<?php echo $row['apellidos'] ?>">
                   <input type="text" class="form-control mb-3" name="direccion" placeholder="Direccion" value="<?php echo $row['direccion'] ?>">
                   <!--<input type="text" class="form-control mb-3" name="sexo" placeholder="Sexo" value="">-->
-                  <fieldset class="col-md-6">
+                  <fieldset class="col-md-6" style="color: white;">
                       <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
                       <div class="col-sm-10">
                         <div class="form-check">
