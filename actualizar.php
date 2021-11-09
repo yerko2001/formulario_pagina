@@ -34,14 +34,14 @@ $row=mysqli_fetch_array($query);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <div class="container" style=" justify-content: center; align-items: center;">
-		  <div class="row">
+		  <div class="row" >
 
-        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center; color: white;" >
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center; color: white; padding: 20px; font: oblique bold 120% cursive;" >
           <h1>Edicion: </h1>
         </div>
 
   			<div class="formulario">
-            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center;" >
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center; " >
             	<form action="update.php" method="POST">
             		
             		<input type="hidden" name="rut" value="<?php echo $row['rut'] ?>">
@@ -51,7 +51,7 @@ $row=mysqli_fetch_array($query);
             			<input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos" value="<?php echo $row['apellidos'] ?>">
                   <input type="text" class="form-control mb-3" name="direccion" placeholder="Direccion" value="<?php echo $row['direccion'] ?>">
                   <!--<input type="text" class="form-control mb-3" name="sexo" placeholder="Sexo" value="">-->
-                  <fieldset class="col-md-6" style="color: white;">
+                  <fieldset class="col-md-6" style="color: white; margin: 20px;">
                       <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
                       <div class="col-sm-10">
                         <div class="form-check">
