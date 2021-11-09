@@ -35,11 +35,13 @@ $row=mysqli_fetch_array($query);
 
     <div class="container" style=" justify-content: center; align-items: center;">
 		  <div class="row">
-        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="padding: 20px; align-content: center; margin: 20px;" met>
+
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center; color: white;" >
           <h1>Edicion: </h1>
         </div>
+
   			<div class="formulario">
-            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="padding: 20px; align-content: center; margin: 20px;" met>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10" style="align-content: center;" >
             	<form action="update.php" method="POST">
             		
             		<input type="hidden" name="rut" value="<?php echo $row['rut'] ?>">
