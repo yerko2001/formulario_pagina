@@ -1,0 +1,51 @@
+body{
+  background-image: linear-gradient(to right, red , blue);
+}
+
+footer{
+	justify-content: center;
+	align-items: center;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 200px auto 200px;
+	grid-template-rows: 500px;
+	gap: 10px;
+
+}
+.grid-container > *{
+	display: flex;
+	color: white;
+	border-radius: 30px 0px 30px 0px;
+	justify-content: center;
+	align-items: center;
+}
+.formulario{
+	grid-column: 1 / span 3;
+	font-family: Candara;
+	font-size: 20px;
+	border-radius: 30px 0px 30px 0px;
+}
+
+.socia-bar{
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+
+}
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+	border-radius: 0 0 0 1rem;
+}
+.formulario{
+	justify-content: center;
+	align-items: center;
+}
