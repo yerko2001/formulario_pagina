@@ -147,7 +147,7 @@ $row=mysqli_fetch_array($query);
 
                     <form  method="get" action="">
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><h2 style="color: white;">Busqueda</h2></label>
+                        <label for="exampleInputEmail1" class="form-label"><h2 style="color: white; font: oblique bold 120% cursive; font-size: 25px;">Busqueda</h2></label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name ="busqueda" required>
 
                       </div>
