@@ -113,19 +113,19 @@ $row=mysqli_fetch_array($query);
                       <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
                       <div class="col-sm-10">
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios1" value="option1">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios1" value="Masculino">
                           <label class="form-check-label" for="gridRadios1">
                             Masculino
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios2" value="option2">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios2" value="Femenino">
                           <label class="form-check-label" for="gridRadios2">
                             Femenino
                           </label>
                         </div>
                         <div class="form-check disabled">
-                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios3" value="option3">
+                          <input class="form-check-input" type="radio" name="sexo" id="gridRadios3" value="Otro">
                           <label class="form-check-label" for="gridRadios3">
                             Otro
                           </label>
