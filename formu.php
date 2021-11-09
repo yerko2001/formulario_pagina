@@ -119,7 +119,7 @@ $row=mysqli_fetch_array($query);
               </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="padding: 20px;" style="background-color: skyblue;">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-11" style="padding: 20px;" style="background-color: skyblue;">
 
                     <form  method="get" action="">
                       <div class="mb-3">
